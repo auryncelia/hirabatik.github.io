@@ -1,0 +1,134 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Hira Batik</title>
+    <!-- Icon -->
+    <link rel="icon" href="gambar/icon hira.png">
+
+    <!-- Remixcon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <!-- CSS -->
+    <style>
+   *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        min-height: 100vh;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        background-color: #f1f1f1;
+    }
+
+    .about-section{
+        background-size: 30%;
+        background: url(gambar/batik\ motif\ login.jpg);
+        overflow: hidden;
+        padding: 10px 0;
+    }
+
+    .about-section button{
+      margin: 30px;
+      padding: 8px 22px;
+      border-color: #dbb272;
+      background-color: #dbb272;
+      color: #fff;
+      border-radius: 6px;
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+
+    .about-section button:active{
+      transform: scale(0.96);
+    }
+
+    .inner-container{
+        width: 60%;
+        float: right;
+        background-color: #fdfdfd;
+        padding: 137px;
+    }
+
+    .inner-container h1{
+        margin-bottom: 30px;
+        font-size: 40px;
+        color: #6c5736;
+        font-weight: 900;
+    }
+
+    .text1{
+        font-size: 17px;
+        color: #c97e06;
+        padding-top: 10px;
+        line-height: 20px;
+        text-align: justify;
+        margin-bottom: 40px;
+    }
+    .text2{
+        font-size: 17px;
+        color: #c97e06;
+        padding-top: 10px;
+        line-height: 20px;
+        text-align: justify;
+        margin-bottom: 10px;
+    }
+    
+    .fotoabout1{
+        width: 90%;
+        margin-top: 10px;
+    }
+    .fotoabout2{
+        width: 90%;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    @media screen and (max-width:1200px){
+        .inner-container{
+            padding: 80px;
+        }
+    }
+
+    @media screen and (max-width:1000px){
+        .about-section{
+            background-size: 100%;
+            padding: 100px 40px;
+        }
+        .inner-container{
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width:600px){
+        .about-section{
+            padding: 0;
+        }
+        .inner-container{
+            padding: 60px;
+        }
+    }
+    </style>
+</head>
+<body>
+  <div class="about-section">
+    <button onclick="window.history.back()"><i class="ri-arrow-left-circle-line">Go Back</i></button>
+        <div class="inner-container">
+            <h1>About Us</h1>
+            <img src="gambar/hira about (1).jpg" class="fotoabout1">
+            <p class="text1">
+              Hira Batik (हीर/Heer; means diamond) is a luxury brand that specializes in traditional Indonesian clothing. This brand has a mission that is to preserve traditional craftsmanship and make it accessible to all. We believe that all should be able to wear their culture and heritage on their sleeve, without going over top or looking like they're trying too hard. 
+            <img src="gambar/hira about (2).jpg" class="fotoabout2">
+            <p class="text2">Hira Batik designs are about being comfortable and beautiful,but still stylish; they're about honoring your own unique style while also looking fashionable. Our goal is to empower people around the world with the knowledge that their own style is celebrated—not judged—and we hope you'll join us in our mission!</p>
+            </p>
+        </div>
+    </div>
+    
+    <!-- script -->
+    <script src="STS DMI ABOUT.js" defer></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</body>
+</html>
